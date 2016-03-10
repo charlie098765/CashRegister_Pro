@@ -1,0 +1,16 @@
+备注：将项目导入eclipse里面中即可运行
+
+1.按钮——"输入IMEI":将获取的imei序列号写入手机应用程序目录下的缓存文件，为模拟发送数据给服务器端
+目录：/data/data/com.zy.indicatorfragment/files/cacheFiles/shopping_imei_list
+文件名称：shopping_imei_list
+
+点击的情况：显示出已购买商品的序列号列表（样例格式）的Toast提示
+
+2.按钮——"打印小票"：将从本地获取的IMEI序列号列表转换为JSONObject,为模拟从服务端获取数据之后解析
+
+点击的情况：显示出已购买商品信息的json字符串格式
+
+3.测试操作：
+1）输入不同数量的商品，
+2）先点击"输入IMEI"，获取对应商品的IMEI列表提示，
+3）再点击"打印小票"，获取根据IMEI列表获取的json字符串，下面空白的地方会显示出相应的商品小票（样例格式）

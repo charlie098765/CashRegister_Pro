@@ -1,0 +1,23 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+   <!-- 按键的style -->
+    <style name="btnStyle">
+        <item name="android:background">@drawable/buy_btn_bg</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_height">38dp</item> 
+        <item name="android:layout_width">90dp</item>
+    </style>
+    <style name="shoppingListTv">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/common_dark</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_white"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/MyWidget.ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff4f7f9"
+        android:cacheColorHint="#00000000"
+        android:descendantFocusability="afterDescendants"
+        android:divider="#dddbdb"
+        android:dividerHeight="1.0px"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <!-- 购买 (输入条形码) -->
+
+        <Button
+            android:id="@+id/btn_buy"
+            style="@style/btnStyle"
+            android:enabled="true"
+            android:text="@string/buy"
+            tools:ignore="HardcodedText" />
+        <!-- 购买 -->
+
+        <Button
+            android:id="@+id/btn_print"
+            style="@style/btnStyle"
+            android:enabled="true"
+            android:text="@string/print"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+    <!--
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+    -->
+    <!-- 商品清单 -->
+
+    <LinearLayout
+        android:id="@+id/ll_shopping_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/shoppingListTv"
+            android:text="@string/shopping_list" />
+
+        <TextView
+            android:id="@+id/tv_all_buy_goods"
+            style="@style/shoppingListTv" />
+
+        <LinearLayout
+            android:id="@+id/ll_special_offer_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- divided line -->
+
+            <TextView
+                android:id="@+id/tv_divided_line1"
+                style="@style/shoppingListTv"
+                android:text="@string/divided_line"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_specal_amount_list_title"
+                style="@style/shoppingListTv"
+                android:text="@string/special_amount_list_title"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_specal_amount_list"
+                style="@style/shoppingListTv" />
+        </LinearLayout>
+        <!-- divided line -->
+
+        <TextView
+            android:id="@+id/tv_divided_line2"
+            style="@style/shoppingListTv"
+            android:text="@string/divided_line" />
+
+        <TextView
+            android:id="@+id/tv_total_and_save"
+            style="@style/shoppingListTv" />
+
+        <TextView
+            style="@style/shoppingListTv"
+            android:text="@string/stars_line" />
+    </LinearLayout>
+
+</LinearLayout>

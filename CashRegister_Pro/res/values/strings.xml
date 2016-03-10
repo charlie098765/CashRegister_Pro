@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">收银机</string>
+    <string name="fragment_one">买二赠一</string>
+    <string name="fragment_two">无活动</string>
+    <string name="fragment_three">95折</string>
+    <string name="fragment_four">双重优惠</string>
+    <string name="amount">数量</string>
+    <string name="buy"> 输入IMEI</string>
+    <string name="print">打印小票</string>
+    <string name="shopping_list">*** 没钱赚商店_购物清单  ***</string>
+    <string name="divided_line">_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ </string>
+    <string name="stars_line">****************************</string>
+    <string name="special_amount_list_title">买二赠一商品：</string>
+</resources>

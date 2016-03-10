@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="58dp"
+    android:background="@drawable/list_item_bg"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical" >
+	
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tv_goods_name"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textColor="@color/common_dark"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="45dp"
+        android:id="@+id/tv_goods_special_offers"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_red"
+        />
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tv_goods_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_dark"
+        />
+    <EditText
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:id="@+id/tv_goods_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_dark"
+        android:hint="@string/amount"
+        android:textColorHint="#E1E1E1"
+        />
+
+</LinearLayout>

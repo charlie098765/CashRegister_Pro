@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<goodsList>
+    <!-- 在有对应的获取商品IMEI获取商品具体信息 -->
+	<goods name = "羽毛球"  imei ="ITEM000001" special="买二赠一" price="1.00" unit="个"/>
+	<goods name = "可口可乐"  imei ="ITEM000005" special="买二赠一" price="3.00" unit="瓶"/>
+	<goods name = "苹果"  imei ="ITEM000003" special="95折"  price="5.50" unit="斤"/>
+	
+</goodsList>
